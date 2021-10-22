@@ -3,7 +3,7 @@
     width: 100%;
     background: #17171a url(../../assets/banner-girl.png) no-repeat center top;
 
-    padding: 440px 80px 0;
+    padding: 480px 80px 0;
     text-align: center;
 
     display: flex;
@@ -12,14 +12,14 @@
     justify-content: center;
 
     strong{
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .signInWithGithub{
         background: #ffcd1e;
-        margin-top: 32px;
-        padding: 0 50px;
+        margin-top: 20px;
+        padding: 0 42px;
         height: 56px;
 
         color: #09090a;
