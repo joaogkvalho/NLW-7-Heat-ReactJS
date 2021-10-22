@@ -43,6 +43,8 @@ export function AuthProvider(props: AuthProviderProps) {
 
         localStorage.setItem('@dowhile:token', token)
 
+        api.defaults.headers.common.authorization = `Baerer ${token}`
+
         setUser(user)
     }
 
